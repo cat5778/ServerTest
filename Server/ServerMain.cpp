@@ -14,7 +14,6 @@ void main()
 	else
 		cout << "Sock Create Fail" << endl;
 
-	cout << "833" << endl;
 
 	closesocket(tcpSock);
 	WSACleanup();
